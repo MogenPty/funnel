@@ -1,0 +1,77 @@
+{
+  "industry": "LEGAL",
+  "entityName": "It Wasn't Me Attorneys",
+  "title": "Legal Practice",
+  "headline": "The CRM Built Exclusively for South African Law Firms",
+  "subheadline": "Scale your practice with automated client intake, trust accounting readiness, and secure matter management tailored for SA legal professionals.",
+  "heroImage": "https://images.unsplash.com/photo-1589829545856-d10d557cf95f?auto=format&fit=crop&q=80&w=1000",
+  "description": "Automate matter management, billing, and conflict checks for your firm.",
+  "url": "https://legal.mogen.co.za",
+  "icon": "⚖️",
+  "themeColor": "blue",
+  "secondaryColor": "amber",
+  "accentColor": "slate",
+  "painPoints": [
+    {
+      "title": "Billable Hour Leaks",
+      "description": "Missing thousands in revenue due to undocumented time spent on cases."
+    },
+    {
+      "title": "Deadline Misses",
+      "description": "Fragmented calendars leading to critical court dates being overlooked."
+    },
+    {
+      "title": "Conflict of Interest",
+      "description": "Manual checks are slow and prone to errors during intake."
+    },
+    {
+      "title": "Trust Account Chaos",
+      "description": "Struggling to reconcile client funds with case progress."
+    }
+  ],
+  "featureSections": [
+    {
+      "category": "Matter Management",
+      "features": [
+        {
+          "title": "Unified Matter View",
+          "description": "Every email, document, and note in one secure timeline."
+        },
+        {
+          "title": "Conflict Checking",
+          "description": "Automated database scans during every new client intake."
+        },
+        {
+          "title": "Document Storage",
+          "description": "Encrypted storage for sensitive case files and evidence."
+        }
+      ]
+    },
+    {
+      "category": "Operations & Billing",
+      "features": [
+        {
+          "title": "Time & Billing Tracking",
+          "description": "One-click timers and instant invoice generation."
+        },
+        {
+          "title": "Trust Accounting Ready",
+          "description": "Separate ledgers for client funds to stay compliant with LPC rules."
+        }
+      ]
+    },
+    {
+      "category": "Communication",
+      "features": [
+        {
+          "title": "Secure Logs",
+          "description": "Immutable logs of all professional correspondence."
+        },
+        {
+          "title": "Deadline Tracking",
+          "description": "Automated reminders for Prescription dates and Court filings."
+        }
+      ]
+    }
+  ]
+}

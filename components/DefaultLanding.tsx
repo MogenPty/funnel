@@ -1,6 +1,5 @@
 import type React from "react";
-import { LEGAL_CONTENT } from "@/constants";
-import * as FUNERAL_STUFF from "@/content/funeral.json";
+import { getAllIndustries } from "../utils/contentLoader";
 import { SectorCard } from "./SectorCard";
 
 export const DefaultLanding: React.FC = () => {
@@ -8,22 +7,15 @@ export const DefaultLanding: React.FC = () => {
     window.location.href = url;
   };
 
-  const sectors = [
-    {
-      title: FUNERAL_STUFF.title,
-      description: FUNERAL_STUFF.description,
-      icon: FUNERAL_STUFF.icon,
-      themeColor: FUNERAL_STUFF.themeColor,
-      handleRedirect: () => handleRedirect(FUNERAL_STUFF.url),
-    },
-    {
-      title: LEGAL_CONTENT.title,
-      description: LEGAL_CONTENT.description,
-      icon: LEGAL_CONTENT.icon,
-      themeColor: LEGAL_CONTENT.themeColor,
-      handleRedirect: () => handleRedirect(LEGAL_CONTENT.url),
-    },
-  ];
+  const industries = getAllIndustries();
+
+  const sectors = industries.map((industry) => ({
+    title: industry.title,
+    description: industry.description,
+    icon: industry.icon,
+    themeColor: industry.themeColor,
+    handleRedirect: () => handleRedirect(industry.url),
+  }));
 
   return (
     <div className="min-h-screen bg-slate-50 dark:bg-slate-950 flex flex-col items-center justify-center p-4">

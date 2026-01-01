@@ -1,4 +1,4 @@
-export type Industry = "FUNERAL" | "LEGAL" | "NONE";
+// export type Industry = "FUNERAL" | "LEGAL" | "NONE";
 
 export interface Feature {
   title: string;
@@ -16,6 +16,7 @@ export interface PainPoint {
 }
 
 export interface IndustryContent {
+  industry: string;
   entityName: string;
   title: string;
   headline: string;
