@@ -17,9 +17,13 @@ export interface PainPoint {
 
 export interface IndustryContent {
   entityName: string;
+  title: string;
   headline: string;
   subheadline: string;
+  description: string;
   heroImage: string;
+  icon: string;
+  url: string;
   painPoints: PainPoint[];
   featureSections: FeatureSection[];
   themeColor: string;

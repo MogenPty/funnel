@@ -1,12 +1,17 @@
-import { IndustryContent } from "./types";
+import type { IndustryContent } from "./types";
 
 export const FUNERAL_CONTENT: IndustryContent = {
   entityName: "Bury-Me-Smiling Undertakers",
+  title: "Funeral Services",
   headline: "The CRM Built Exclusively for South African Funeral Homes",
   subheadline:
     "Streamline arrangements, manage compliance, and provide compassionate service with South Africa's first modern funeral management platform.",
   heroImage:
     "https://images.unsplash.com/photo-1517048676732-d65bc937f952?auto=format&fit=crop&q=80&w=1000",
+  description:
+    "Manage arrangements, compliance forms, and families with compassion.",
+  url: "https://funeral.mogen.co.za",
+  icon: "⚰️",
   themeColor: "indigo", // Tailwind base color
   secondaryColor: "slate",
   accentColor: "purple",
@@ -85,11 +90,16 @@ export const FUNERAL_CONTENT: IndustryContent = {
 
 export const LEGAL_CONTENT: IndustryContent = {
   entityName: "It Wasn't Me Attorneys",
+  title: "Legal Practice",
   headline: "The CRM Built Exclusively for South African Law Firms",
   subheadline:
     "Scale your practice with automated client intake, trust accounting readiness, and secure matter management tailored for SA legal professionals.",
   heroImage:
     "https://images.unsplash.com/photo-1589829545856-d10d557cf95f?auto=format&fit=crop&q=80&w=1000",
+  description:
+    "Automate matter management, billing, and conflict checks for your firm.",
+  url: "https://legal.mogen.co.za",
+  icon: "⚖️",
   themeColor: "blue",
   secondaryColor: "amber",
   accentColor: "slate",

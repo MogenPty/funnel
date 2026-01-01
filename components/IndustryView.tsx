@@ -1,6 +1,7 @@
 import type React from "react";
 import type { Industry, IndustryContent } from "../types";
 import { Button } from "./Button";
+import { Footer } from "./Footer";
 import { SectionCard } from "./SectionCard";
 import { WaitlistForm } from "./WaitlistForm";
 
@@ -164,6 +165,7 @@ export const IndustryView: React.FC<IndustryViewProps> = ({
             {content.featureSections.map((section, sIdx) => (
               <SectionCard
                 key={`${section.title}`}
+                sectionNumber={sIdx + 1}
                 themeColor={content.themeColor}
                 section={section}
               />
@@ -190,22 +192,7 @@ export const IndustryView: React.FC<IndustryViewProps> = ({
       </section>
 
       {/* Footer */}
-      <footer className="py-12 border-t border-slate-200 dark:border-slate-800">
-        <div className="max-w-7xl mx-auto px-4 flex flex-col md:row items-center justify-between opacity-70 text-sm">
-          <div>© 2024 Mogen CRM. Built for South African Professionals.</div>
-          <div className="flex space-x-6 mt-4 md:mt-0">
-            <a href="#" className="hover:text-indigo-600 transition">
-              Privacy
-            </a>
-            <a href="#" className="hover:text-indigo-600 transition">
-              Terms
-            </a>
-            <a href="#" className="hover:text-indigo-600 transition">
-              Support
-            </a>
-          </div>
-        </div>
-      </footer>
+      <Footer themeColor={content.themeColor} />
     </div>
   );
 };
