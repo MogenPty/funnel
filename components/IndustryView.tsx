@@ -1,18 +1,15 @@
 import type React from "react";
-import type { Industry, IndustryContent } from "../types";
+import type { IndustryContent } from "../types";
 import { Button } from "./Button";
+import { Footer } from "./Footer";
 import { SectionCard } from "./SectionCard";
 import { WaitlistForm } from "./WaitlistForm";
 
 interface IndustryViewProps {
-  industry: Industry;
   content: IndustryContent;
 }
 
-export const IndustryView: React.FC<IndustryViewProps> = ({
-  industry,
-  content,
-}) => {
+export const IndustryView: React.FC<IndustryViewProps> = ({ content }) => {
   return (
     <div className="min-h-screen bg-grid">
       {/* Header */}
@@ -22,10 +19,10 @@ export const IndustryView: React.FC<IndustryViewProps> = ({
             <div
               className={`w-8 h-8 bg-${content.themeColor}-600 rounded-lg flex items-center justify-center text-white font-bold`}
             >
-              {content.entityName.substring(0, 1).toUpperCase()}
+              {content.title.substring(0, 1).toUpperCase()}
             </div>
             <span className="text-xl font-bold tracking-tight">
-              {content.entityName}
+              {content.title}
             </span>
           </div>
           <div className="hidden md:flex space-x-8 text-sm font-medium opacity-70">
@@ -154,9 +151,8 @@ export const IndustryView: React.FC<IndustryViewProps> = ({
               Powerful Features, Simplified
             </h2>
             <p className="text-slate-600 dark:text-slate-400 max-w-2xl mx-auto">
-              Everything you need to manage your{" "}
-              {industry === "FUNERAL" ? "home" : "firm"} effectively without the
-              complexity of legacy software.
+              Everything you need to manage your {content.title.toLowerCase()}{" "}
+              effectively without the complexity of legacy software.
             </p>
           </div>
 
@@ -164,6 +160,7 @@ export const IndustryView: React.FC<IndustryViewProps> = ({
             {content.featureSections.map((section, sIdx) => (
               <SectionCard
                 key={`${section.title}`}
+                sectionNumber={sIdx + 1}
                 themeColor={content.themeColor}
                 section={section}
               />
@@ -185,27 +182,15 @@ export const IndustryView: React.FC<IndustryViewProps> = ({
               your business.
             </p>
           </div>
-          <WaitlistForm industry={industry} themeColor={content.themeColor} />
+          <WaitlistForm
+            industryTitle={content.title}
+            themeColor={content.themeColor}
+          />
         </div>
       </section>
 
       {/* Footer */}
-      <footer className="py-12 border-t border-slate-200 dark:border-slate-800">
-        <div className="max-w-7xl mx-auto px-4 flex flex-col md:row items-center justify-between opacity-70 text-sm">
-          <div>© 2024 Mogen CRM. Built for South African Professionals.</div>
-          <div className="flex space-x-6 mt-4 md:mt-0">
-            <a href="#" className="hover:text-indigo-600 transition">
-              Privacy
-            </a>
-            <a href="#" className="hover:text-indigo-600 transition">
-              Terms
-            </a>
-            <a href="#" className="hover:text-indigo-600 transition">
-              Support
-            </a>
-          </div>
-        </div>
-      </footer>
+      <Footer themeColor={content.themeColor} />
     </div>
   );
 };

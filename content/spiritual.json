@@ -1,0 +1,77 @@
+{
+  "industry": "SPIRITUAL",
+  "entityName": "Grace Community Center",
+  "title": "Spiritual Organizations",
+  "headline": "Empower Your Community and Engage Your Members",
+  "subheadline": "Manage membership, donations, and events effortlessly so you can focus on spiritual growth and community care.",
+  "heroImage": "https://images.unsplash.com/photo-1438232992991-995b7058bbb3?auto=format&fit=crop&q=80&w=1000",
+  "description": "Streamline member management, donations, and volunteer coordination.",
+  "url": "https://spiritual.mogen.co.za",
+  "icon": "🛐",
+  "themeColor": "violet",
+  "secondaryColor": "amber",
+  "accentColor": "indigo",
+  "painPoints": [
+    {
+      "title": "Member Disconnection",
+      "description": "Losing track of new visitors and failing to follow up."
+    },
+    {
+      "title": "Donation Tracking",
+      "description": "Manual counting and complex reconciliation of contributions."
+    },
+    {
+      "title": "Event Chaos",
+      "description": "Double-booking venues or scrambling for volunteers."
+    },
+    {
+      "title": "Resource Allocation",
+      "description": "Difficulty managing equipment, rooms, and schedule conflicts."
+    }
+  ],
+  "featureSections": [
+    {
+      "category": "Membership",
+      "features": [
+        {
+          "title": "Member Database",
+          "description": "Comprehensive profiles with family grouping and spiritual milestones."
+        },
+        {
+          "title": "Check-in System",
+          "description": "Secure kids' check-in and event attendance tracking."
+        },
+        {
+          "title": "Volunteer Scheduling",
+          "description": "Automated rosters and reminders for serving teams."
+        }
+      ]
+    },
+    {
+      "category": "Giving",
+      "features": [
+        {
+          "title": "Digital Giving",
+          "description": "Integrated online donations and recurring contribution setup."
+        },
+        {
+          "title": "Contribution Statements",
+          "description": "Automated annual tax certificates for donors."
+        }
+      ]
+    },
+    {
+      "category": "Community Care",
+      "features": [
+        {
+          "title": "Care Workflows",
+          "description": "Track hospital visits, counseling sessions, and support requests."
+        },
+        {
+          "title": "Small Group Management",
+          "description": "Tools for leaders to manage group attendance and communication."
+        }
+      ]
+    }
+  ]
+}

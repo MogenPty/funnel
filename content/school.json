@@ -1,0 +1,77 @@
+{
+  "industry": "SCHOOLS",
+  "entityName": "Bright Future Academy",
+  "title": "Educational Institutions",
+  "headline": "The All-In-One School Management Solution for South Africa",
+  "subheadline": "Simplify admissions, automate fee collections, and enhance parent communication with a system built for SA schools.",
+  "heroImage": "https://images.unsplash.com/photo-1577896851231-70ef18881754?auto=format&fit=crop&q=80&w=1000",
+  "description": "Streamline administration, student records, and parent communication.",
+  "url": "https://schools.mogen.co.za",
+  "icon": "🎓",
+  "themeColor": "emerald",
+  "secondaryColor": "yellow",
+  "accentColor": "blue",
+  "painPoints": [
+    {
+      "title": "Fee Collection Struggles",
+      "description": "Cash flow issues due to manual tracking of school fees and arrears."
+    },
+    {
+      "title": "Admissions Nightmares",
+      "description": "Endless piles of paper applications and lost documents."
+    },
+    {
+      "title": "Communication Gaps",
+      "description": "Parents missing critical updates about events or report cards."
+    },
+    {
+      "title": "Compliance Headaches",
+      "description": "Difficulty generating reports for the Department of Education (EMIS)."
+    }
+  ],
+  "featureSections": [
+    {
+      "category": "Administration",
+      "features": [
+        {
+          "title": "Digital Admissions",
+          "description": "Online application portal that feeds directly into your student database."
+        },
+        {
+          "title": "Attendance Tracking",
+          "description": "Digital registers for learners and staff with automated absentee alerts."
+        },
+        {
+          "title": "Asset Management",
+          "description": "Track textbooks, tablets, and school equipment."
+        }
+      ]
+    },
+    {
+      "category": "Finance",
+      "features": [
+        {
+          "title": "Automated Billing",
+          "description": "Recurring invoices for tuition and ad-hoc billing for excursions."
+        },
+        {
+          "title": "Payment Reconciliation",
+          "description": "Easy allocation of bank payments to student accounts."
+        }
+      ]
+    },
+    {
+      "category": "Communication",
+      "features": [
+        {
+          "title": "Parent Portal",
+          "description": "Secure access for parents to view marks, attendance, and statements."
+        },
+        {
+          "title": "Bulk Messaging",
+          "description": "SMS and Email integration for urgent announcements."
+        }
+      ]
+    }
+  ]
+}

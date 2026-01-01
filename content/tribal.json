@@ -1,0 +1,73 @@
+{
+  "industry": "TRIBAL",
+  "entityName": "Royal House of Amakhosi",
+  "title": "Tribal Councils",
+  "headline": "Preserving Heritage through Modern Administration",
+  "subheadline": "Digitize land records, manage community disputes, and maintain the royal census with respect for tradition and law.",
+  "heroImage": "https://images.unsplash.com/photo-1674320137943-33ccb85f1fc4?q=80&w=1000&auto=format&fit=crop",
+  "description": "Manage land rights, community census, and council resolutions.",
+  "url": "https://tribal.mogen.co.za",
+  "icon": "🛡️",
+  "themeColor": "orange",
+  "secondaryColor": "stone",
+  "accentColor": "red",
+  "painPoints": [
+    {
+      "title": "Lost Land Records",
+      "description": "Disputes arising from damaged or missing handwritten PTOs (Permission to Occupy)."
+    },
+    {
+      "title": "Census Gaps",
+      "description": "Uncertainty about exact community numbers and household heads."
+    },
+    {
+      "title": "Meeting Documentation",
+      "description": "Lack of formal minutes for council resolutions and judgments."
+    },
+    {
+      "title": "Revenue Leaks",
+      "description": "Poor tracking of tribal levies and business contributions."
+    }
+  ],
+  "featureSections": [
+    {
+      "category": "Land Administration",
+      "features": [
+        {
+          "title": "Digital Land Registry",
+          "description": "GPS-mapped plots linked to household heads and PTO certificates."
+        },
+        {
+          "title": "Dispute Resolution",
+          "description": "Case files for land arguments with history of judgments."
+        }
+      ]
+    },
+    {
+      "category": "Community Governance",
+      "features": [
+        {
+          "title": "Household Census",
+          "description": "Digital registry of all families, livestock, and assets."
+        },
+        {
+          "title": "Tribal Court",
+          "description": "Management of traditional court cases, fines, and outcomes."
+        }
+      ]
+    },
+    {
+      "category": "Council Ops",
+      "features": [
+        {
+          "title": "Meeting Minutes",
+          "description": "Secure storage for LeKGOTLA resolutions and attendance registers."
+        },
+        {
+          "title": "Levy Management",
+          "description": "Tracking annual tribal levies and issuing receipts."
+        }
+      ]
+    }
+  ]
+}

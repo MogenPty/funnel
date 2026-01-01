@@ -1,0 +1,77 @@
+{
+  "industry": "FUNERAL",
+  "entityName": "Bury-Me-Smiling Undertakers",
+  "title": "Funeral Services",
+  "headline": "The CRM Built Exclusively for South African Funeral Homes",
+  "subheadline": "Streamline arrangements, manage compliance, and provide compassionate service with South Africa's first modern funeral management platform.",
+  "heroImage": "https://images.unsplash.com/photo-1517048676732-d65bc937f952?auto=format&fit=crop&q=80&w=1000",
+  "description": "Manage arrangements, compliance forms, and families with compassion.",
+  "url": "https://funeral.mogen.co.za",
+  "icon": "⚰️",
+  "themeColor": "indigo",
+  "secondaryColor": "slate",
+  "accentColor": "purple",
+  "painPoints": [
+    {
+      "title": "Paperwork Overload",
+      "description": "Spending hours on manual entry for death notices and contracts."
+    },
+    {
+      "title": "Scheduling Conflicts",
+      "description": "Double-booked chapels or hearses causing family distress."
+    },
+    {
+      "title": "Compliance Risks",
+      "description": "Maintaining audit trails for BI-1663 and health regulations."
+    },
+    {
+      "title": "Inventory Leakage",
+      "description": "Loss of track on caskets, urns, and floral arrangements."
+    }
+  ],
+  "featureSections": [
+    {
+      "category": "Client & Case Management",
+      "features": [
+        {
+          "title": "Arrangement Tracking",
+          "description": "Real-time status of every funeral from pickup to burial."
+        },
+        {
+          "title": "Deceased & Family Portal",
+          "description": "Unified database for records and family communication logs."
+        },
+        {
+          "title": "Aftercare Follow-ups",
+          "description": "Automated check-ins to build long-term community relationships."
+        }
+      ]
+    },
+    {
+      "category": "Operations",
+      "features": [
+        {
+          "title": "Service Scheduling",
+          "description": "Visual calendar for staff, vehicles, and facilities."
+        },
+        {
+          "title": "Inventory Control",
+          "description": "Stock management for caskets, monuments, and materials."
+        }
+      ]
+    },
+    {
+      "category": "Compliance & Admin",
+      "features": [
+        {
+          "title": "SA Compliance Ready",
+          "description": "Built-in audit trails and forms for South African regulatory standards."
+        },
+        {
+          "title": "Custom Contracts",
+          "description": "Generate digital-ready forms and service agreements instantly."
+        }
+      ]
+    }
+  ]
+}
