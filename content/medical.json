@@ -1,0 +1,77 @@
+{
+  "industry": "MEDICAL",
+  "entityName": "CarePlus Medical Centre",
+  "title": "Medical Practices",
+  "headline": "Modern Practice Management for Healthcare Professionals",
+  "subheadline": "Focus on patient care while we handle appointments, medical aid claims, and clinical notes compliant with POPPIA.",
+  "heroImage": "https://images.unsplash.com/photo-1579684385127-1ef15d508118?auto=format&fit=crop&q=80&w=1000",
+  "description": "Manage patient records, appointments, and medical aid claims securely.",
+  "url": "https://medical.mogen.co.za",
+  "icon": "⚕️",
+  "themeColor": "teal",
+  "secondaryColor": "cyan",
+  "accentColor": "slate",
+  "painPoints": [
+    {
+      "title": "No-Show Patients",
+      "description": "Lost revenue due to patients forgetting appointments."
+    },
+    {
+      "title": "Medical Aid Rejections",
+      "description": "Complex claiming codes leading to delayed payments."
+    },
+    {
+      "title": "Paper Files",
+      "description": "Inability to quickly access patient history or scripts."
+    },
+    {
+      "title": "Data Security",
+      "description": "Risk of sensitive patient data breaches with manual filing."
+    }
+  ],
+  "featureSections": [
+    {
+      "category": "Patient Management",
+      "features": [
+        {
+          "title": "Online Booking",
+          "description": "Allow patients to book slots 24/7 with real-time calendar sync."
+        },
+        {
+          "title": "Electronic Health Records",
+          "description": "Secure, searchable digital notes and history for every patient."
+        },
+        {
+          "title": "Scripting",
+          "description": "Digital prescriptions sent directly to pharmacies."
+        }
+      ]
+    },
+    {
+      "category": "Practice Admin",
+      "features": [
+        {
+          "title": "Automated Reminders",
+          "description": "SMS and WhatsApp reminders to reduce appointment no-shows."
+        },
+        {
+          "title": "Medical Aid Integration",
+          "description": "Direct EDI switching for fast claim submissions and feedback."
+        }
+      ]
+    },
+    {
+      "category": "Telehealth",
+      "features": [
+        {
+          "title": "Virtual Consults",
+          "description": "Integrated video calling for remote patient care."
+        },
+        {
+          "title": "Secure Messaging",
+          "description": "Encrypted channel for sharing results and advice."
+        }
+      ]
+    }
+  ]
+}

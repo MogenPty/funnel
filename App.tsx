@@ -13,8 +13,7 @@ const App: React.FC = () => {
   const [loading, setLoading] = useState(true);
 
   useEffect(() => {
-    let hostname = window.location.hostname;
-    hostname = "legal.mogen.co.za";
+    const hostname = window.location.hostname;
     const matchedContent = getIndustryByDomain(hostname);
 
     if (matchedContent) {
